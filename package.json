@@ -2,6 +2,7 @@
   "name": "astro-personal",
   "version": "1.0.0",
   "private": true,
+  "packageManager": "^pnpm@10.0.0",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -16,4 +17,3 @@
     "tailwindcss": "^3.0.24"
   }
 }
-
