@@ -1,11 +1,4 @@
 @font-face {
-  font-family: 'Oswald';
-  src: url('/fonts/Oswald.woff2') format('woff2');
-  font-display: fallback;
-}
-
-
-@font-face {
   font-family: 'Adjusted Tahoma Fallback';
   src: local(Tahoma);
   size-adjust: 83%;
