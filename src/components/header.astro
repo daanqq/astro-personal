@@ -4,21 +4,23 @@ import profilePic from '../images/photo.webp'
 import Link from './link.astro'
 ---
 
-<div class='flex flex-col h-screen snap-start justify-center items-center leading-tight p-4 md:p-8'>
-  <div class='flex justify-center'>
+<div
+  class='flex flex-col h-screen snap-start justify-center md:items-center leading-tight p-4 md:p-8'
+>
+  <div class='flex justify-center flex-col md:flex-row md:items-center'>
     <div
-      class='hidden relative white:md:bg-gray-100 rounded-full rounded-r-none h-full md:block w-32'
+      class='relative white:md:bg-gray-100 rounded-full rounded-r-none h-full block md:w-32 w-48'
     >
       <Image class='rounded-full' src={profilePic} alt='profile-picture' />
     </div>
     <div
-      class='pr-6 p-3 pt-1 md:rounded-full white:md:bg-gray-100 md:rounded-l-none flex flex-col justify-center'
+      class='md:pr-6 md:p-3 p-1 pt-1 md:rounded-full white:md:bg-gray-100 md:rounded-l-none flex flex-col justify-center'
     >
-      <h2 class='text-5xl text-center md:text-left mb-1'>Андреев Данила</h2>
-      <h2 class='text-3xl text-center md:text-left'>Фронтенд-разработчик</h2>
+      <h2 class='md:text-5xl text-4xl md:text-left mb-1'>Андреев Данила</h2>
+      <h2 class='md:text-3xl text-2xl md:text-left'>Фронтенд разработчик</h2>
     </div>
   </div>
-  <div class='text-xl mt-3 text-center md:text-left space-x-2'>
+  <div class='md:flex grid md:grid-cols-0 grid-cols-1 text-xl mt-3 text-center'>
     <Link href='https://t.me/daanqq' text='Telegram' />
     <Link href='mailto:qq@daanqq.ru' text='qq@daanqq.ru' />
     <Link href='https://github.com/daanqq/' text='Github' />
