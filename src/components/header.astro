@@ -9,26 +9,25 @@ import Link from "./link.astro";
 >
   <div class="flex justify-center">
     <div
-      class="hidden relative white:md:bg-gray-100 rounded-full border dark:border-zinc-700 border-r-0 rounded-r-none h-full md:block w-32"
+      class="hidden relative white:md:bg-gray-100 rounded-full rounded-r-none h-full md:block w-32"
     >
       <Image
-        class="rounded-full border border-l-0 dark:border-zinc-700"
+        class="rounded-full"
         src={profilePic}
         alt="photo"
       />
     </div>
     <div
-      class="md:border md:border-l-0 pr-6 p-3 pt-1 dark:border-zinc-700 md:rounded-full white:md:bg-gray-100 md:rounded-l-none flex flex-col justify-center"
+      class="pr-6 p-3 pt-1 md:rounded-full white:md:bg-gray-100 md:rounded-l-none flex flex-col justify-center"
     >
       <h2 class="text-5xl text-center md:text-left mb-1">Андреев Данила</h2>
       <h2 class="text-3xl text-center md:text-left">Фронтенд-разработчик</h2>
     </div>
   </div>
-  <div class="text-xl mt-3 text-center md:text-left font-light">
-    |
-    <Link href="mailto:qq@daanqq.ru" text="qq@daanqq.ru" /> |
-    <Link href="https://t.me/daanqq" text="Telegram" /> |
-    <Link href="https://github.com/daanqq/" text="Github" /> |
-    <Link href="resume.pdf" text="PDF Resume" /> |
+  <div class="text-xl mt-3 text-center md:text-left space-x-2">
+    <Link href="https://t.me/daanqq" text="Telegram" />
+    <Link href="mailto:qq@daanqq.ru" text="qq@daanqq.ru" />
+    <Link href="https://github.com/daanqq/" text="Github" />
+    <Link href="resume.pdf" text="Resume" />
   </div>
 </div>
