@@ -1,18 +1,18 @@
 install:
-	pnpm install
+	npm install
 
 dev develop:
-	pnpm dev
+	npm run dev
 
 devhost:
-	pnpm dev --host
+	npm run dev --host
 
 build:
-	pnpm build
+	npm run build
 
 start:
-	pnpm preview
+	npm run preview
 
 bstart:
-	pnpm build
-	pnpm preview
+	npm run build
+	npm run preview

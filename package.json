@@ -2,7 +2,6 @@
   "name": "astro-personal",
   "version": "1.0.0",
   "private": true,
-  "packageManager": "pnpm@10.18.2",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
