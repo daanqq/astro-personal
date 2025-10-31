@@ -6,7 +6,7 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
-        sans: ["Oswald", "Adjusted Tahoma Fallback", ...defaultTheme.fontFamily.sans],
+        sans: ["system-ui, 'Segoe UI', Roboto, Arial, sans-serif", ...defaultTheme.fontFamily.sans],
       },
 		},
 	},

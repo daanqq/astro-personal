@@ -1,8 +1,0 @@
-@font-face {
-  font-family: 'Adjusted Tahoma Fallback';
-  src: local(Tahoma);
-  size-adjust: 83%;
-  ascent-override: 144%;
-  descent-override: 36%;
-  line-gap-override: normal;
-}
