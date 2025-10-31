@@ -1,23 +1,21 @@
 ---
 import '../styles/style.css'
-import Main from '../layouts/Main.astro';
-import Header from '../components/header.astro';
+import Main from '../layouts/Main.astro'
+import Header from '../components/header.astro'
 ---
 
-<html lang="ru" class="scroll-smooth">
+<html lang='ru' class='scroll-smooth'>
+	<head>
+		<meta charset='utf-8' />
+		<meta name='viewport' content='width=device-width, initial-scale=1' />
+		<meta name='description' content='Фронтенд-разработчик, qq@daanqq.ru' />
+		<title>Андреев Данила</title>
+		<link rel='icon' type='image/svg+xml' href='/favicon.svg' />
+	</head>
 
-<head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<meta name="description" content="Фронтенд-разработчик, qq@daanqq.ru" />
-	<title>Андреев Данила</title>
-	<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-</head>
-
-<body class="dark:bg-zinc-900 dark:text-slate-200 tracking-tighter">
-	<Main>
-		<Header id='header' />
-	</Main>
-</body>
-
+	<body class='dark:bg-zinc-900 dark:text-slate-200 tracking-tighter'>
+		<Main>
+			<Header id='header' />
+		</Main>
+	</body>
 </html>
